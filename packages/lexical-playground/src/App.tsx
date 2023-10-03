@@ -48,7 +48,7 @@ function prepopulatedRichText() {
     root.append(quote);
     const paragraph = $createParagraphNode();
     paragraph.append(
-      $createTextNode('The playground is a demo environment built with '),
+      $createTextNode('The playground is a demo environment built with'),
       $createTextNode('@lexical/react').toggleFormat('code'),
       $createTextNode('.'),
       $createTextNode(' Try typing in '),
